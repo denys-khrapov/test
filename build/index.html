@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="page-holder">
+        <div class="wrapper">
+            <header class="header">
+                <div class="container">
+                    <div class="header__body">
+                        <div class="header__language">
+                            <ul class="language-switcher">
+                                <li class="language-switcher__item">
+                                    <a class="language-switcher__link" href="#">Eng</a>
+                                </li>
+                                <li class="language-switcher__item">
+                                    <a class="language-switcher__link" href="#">Aze</a>
+                                </li>
+                                <li class="language-switcher__item">
+                                    <a class="language-switcher__link language-switcher__link--active" href="#">Рус</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <main class="main">
+                <div class="container">
+                    <div class="main__top">
+                        <div class="logo">
+                            <span>Logo</span>
+                        </div>
+                        <ul class="main-list">
+                            <li class="main-list__item"><div class="main-list__text"><a href="#">Lorem ipsum dolor sit</a></div><div class="main-list__text"><a href="#">Lorem ipsum</a></div></li>
+                            <li class="main-list__item main-list__item--middle"><div class="main-list__text"><a href="#">Lorem ipsum dolor</a></div><div class="main-list__text"><a href="#">Lorem ipsum dolor sit amet,
+                                consectetur adipiscing</a></div></li>
+                            <li class="main-list__item"><div class="main-list__text"><a href="#">Lorem ipsum dolor</a></div><div class="main-list__text"><a href="#">Lorem ipsum dolor sit</a></div></li>
+                        </ul>
+                    </div>
+                    <div class="menu">
+                        <a href="#home" class="active burger">Меню</a>
+                        <ul class="menu__list" id="myLinks">
+                            <li><a class="menu__link" href="#news">Пункт меню</a></li>
+                            <li><a class="menu__link" href="#contact">Длинный пункт меню</a></li>
+                            <li><a class="menu__link" href="#about">Очень длинный пункт меню</a></li>
+                            <li><a class="menu__link" href="#about">Еще пункт меню</a></li>
+                            <li><a class="menu__link" href="#about">П.Меню</a></li>
+                        </ul>
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </div>
+                    <div class="form-box">
+                        <form action="" class="form">
+                            <h3 class="form__title">Form</h3>
+                            <div class="form__item">
+                                <label class="form__label" for="label_1">Label #1</label>
+                                <input class="form__input form__input--label" type="text" id="label_1" name="label_1">
+                            </div>
+                            <div class="form__inner">
+                                <div class="form__item">
+                                    <label class="form__label" for="label_2">Label #2</label>
+                                    <input class="form__input" type="text" id="label_2" name="label_2">
+                                    <label class="form__label" for="label_2">Label #2</label>
+                                    <input class="form__input" type="text" id="label_2" name="label_2">
+                                </div>
+                                <div class="form__item">
+                                    <label class="form__label" for="label_3">Label #3</label>
+                                    <input class="form__input" type="text" id="label_3" name="label_3">
+                                    <label class="form__label" for="label_3">Label #3</label>
+                                    <input class="form__input" type="text" id="label_3" name="label_3">
+                                </div>
+                            </div>
+                            <button class="form__btn btn" type="submit">Submit</button>
+                        </form>
+                        <div class="form-box__description description">
+                            <p class="description__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                                do eiusmod tempor incididunt ut labore et.</p>
+                            <p class="description__text">Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                            <a class="description__btn btn" href="#">More</a>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="cards__item">
+                            <div class="cards__image"></div>
+                            <div class="cards__body">
+                                <h3 class="cards__title">Lorem ipsum dolor sit </h3>
+                                <p class="cards__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                    eiusmod tempor </p>
+                            </div>
+                        </div>
+                        <div class="cards__item">
+                            <div class="cards__image"></div>
+                            <div class="cards__body">
+                                <h3 class="cards__title">Lorem ipsum dolor sit </h3>
+                                <p class="cards__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                    eiusmod tempor </p>
+                            </div>
+                        </div>
+                        <div class="cards__item">
+                            <div class="cards__image"></div>
+                            <div class="cards__body">
+                                <h3 class="cards__title">Lorem ipsum dolor sit </h3>
+                                <p class="cards__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                    eiusmod tempor </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery">
+                        <div class="gallery__item">
+                        </div>
+                        <div class="gallery__item">
+                        </div>
+                        <div class="gallery__item">
+                        </div>
+                        <div class="gallery__item">
+                        </div>
+                        <div class="gallery__item">
+                        </div>
+                        <div class="gallery__item">
+                        </div>
+                        <div class="gallery__item">
+                        </div>
+                        <div class="gallery__item">
+                        </div>
+                        <div class="gallery__item">
+                        </div>
+                        <div class="gallery__item">
+                        </div>
+                        <div class="gallery__item">
+                        </div>
+                        <div class="gallery__item">
+                        </div>
+                    </div>
+                    <a href="#" class="gallery-link">More</a>
+                </div>
+            </main>
+        </div>
+    </div>
+    <footer class="footer container">
+        <div class="footer__inner">
+            <div class="footer__item"></div>
+            <div class="footer__item"></div>
+            <div class="footer__item"></div>
+            <div class="footer__item"></div>
+            <div class="footer__item"></div>
+            <div class="footer__item"></div>
+            <div class="footer__item"></div>
+            <div class="footer__item"></div>
+            <div class="footer__item"></div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
